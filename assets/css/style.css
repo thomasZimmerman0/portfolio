@@ -1514,6 +1514,7 @@ footer .credits a {
   border-radius: 5px;
   height: 75vh;
   max-width: 80%;
+  position: relative;
 }
 
 .mougals h1{
@@ -1527,11 +1528,23 @@ footer .credits a {
 }
 
 .mougals button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   border: none;
   background-color: rgb(68, 129, 252);
   border-radius: 5px;
   color: white;
+}
+
+.close_button{
+  position: absolute;
+  bottom: 20px;
+}
+
+.projLink{
+  cursor: pointer;
 }
 
 /* Image Carousel css */
@@ -1541,8 +1554,7 @@ footer .credits a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
-  margin: 10px;
+  height: 400px;
 }
 
 ._img-slider ._slide{
@@ -1590,3 +1602,97 @@ footer .credits a {
   background: rgb(101, 181, 252);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5)
 }
+
+@media (max-width: 1162px){
+  ._img-slider ._slide img{
+    width: 600px;
+    height: 350px;
+  
+  }
+}
+@media (max-width: 1091px){
+  ._img-slider ._slide img{
+    width: 500px;
+    height: 250px;
+  
+  }
+  ._img-slider ._navigation{
+    bottom: 27%;
+  }
+  ._img-slider{
+    height: 300px;
+  }
+}
+@media (max-width: 760px){
+  ._img-slider ._slide img{
+    width:400px;
+    height: 250px;
+  
+  }
+}
+@media (max-width: 640px){
+  ._img-slider ._slide img{
+    width:300px;
+    height: 200px;
+  
+  }
+  ._img-slider ._navigation{
+    bottom: 30%;
+  }
+}
+
+@media (max-width: 560px){
+  ._img-slider ._slide img{
+    width: 200px;
+    height: 150px;
+  
+  }
+  ._img-slider ._navigation{
+    bottom: 25%;
+  }
+
+  .mougals h1{
+    font-size: 16px;
+  }
+  .mougals h3{
+    font-size: 12px;
+  }
+
+  .mougals a{
+    font-size: 10px;
+  }
+
+  .mougals p{
+    font-size: 11px;
+  }
+
+  ._img-slider{
+    height: 250px
+  }
+}
+
+@media (max-width: 389px){
+  ._img-slider{
+    display:none;
+  }
+}
+
+@media (max-width: 1025px) and (max-height: 601px){
+  ._img-slider ._slide img{
+    width: 200px;
+    height: 100px;
+  }
+  ._img-slider{
+    height: 150px;
+  }
+}
+@media (max-width: 1280px) and (max-height: 801px){
+  ._img-slider ._slide img{
+    width: 250px;
+    height: 150px;
+  }
+  ._img-slider{
+    height: 150px;
+  }
+}
+
