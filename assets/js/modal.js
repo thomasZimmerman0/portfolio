@@ -52,7 +52,7 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS"
 
-            linkToSite.innerHTML = `<a href="https://tommysblackjacktable.netlify.app/ target="_blank"">Click Here To Visit This Website!</a>`
+            linkToSite.innerHTML = `<a href="https://tommysblackjacktable.netlify.app/" target="_blank">Click Here To Visit This Website!</a>`
         }
         if(e.target.title == 'queen'){
 
