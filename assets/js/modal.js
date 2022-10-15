@@ -32,7 +32,7 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS, REST API's"
 
-            linkToSite.innerHTML = ` <a href="https://whatsinmydrink1.netlify.app/">Click Here To Visit This Website!</a> target="_blank"`
+            linkToSite.innerHTML = ` <a href="https://whatsinmydrink1.netlify.app/" target="_blank">Click Here To Visit This Website!</a>`
         }
         if(e.target.title == 'blackjack'){
 
@@ -52,7 +52,7 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS"
 
-            linkToSite.innerHTML = `<a href="https://tommysblackjacktable.netlify.app/">Click Here To Visit This Website! target="_blank"</a>`
+            linkToSite.innerHTML = `<a href="https://tommysblackjacktable.netlify.app/ target="_blank"">Click Here To Visit This Website!</a>`
         }
         if(e.target.title == 'queen'){
 
@@ -72,7 +72,7 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "Node.js, EJS, express, socket.io"
 
-            linkToSite.innerHTML = `<a href="https://queenfanpage.herokuapp.com/">Click Here To Visit This Website! target="_blank"</a>`
+            linkToSite.innerHTML = `<a href="https://queenfanpage.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>`
         }
         if(e.target.title == 'drawdotio'){
 
@@ -92,7 +92,7 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "Node.js, EJS, express, ElephantSQL, Sequelize, Cloudinary, Canvas, Passport"
 
-            linkToSite.innerHTML = `<a href="https://drawdotio.herokuapp.com/">Click Here To Visit This Website! target="_blank"</a>`
+            linkToSite.innerHTML = `<a href="https://drawdotio.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>`
         }
 
         modal_container.classList.add('show');
