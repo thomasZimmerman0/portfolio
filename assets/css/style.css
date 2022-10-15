@@ -1504,6 +1504,7 @@ footer .credits a {
 .mougals-container.show {
   pointer-events: auto;
   opacity: 1;
+  overflow: scroll;
 
 }
 
@@ -1515,6 +1516,7 @@ footer .credits a {
   height: 75vh;
   max-width: 80%;
   position: relative;
+  overflow: auto;
 }
 
 .mougals h1{
@@ -1622,6 +1624,21 @@ footer .credits a {
   ._img-slider{
     height: 300px;
   }
+  .mougals h1{
+    font-size: 18px;
+  }
+  .mougals h3{
+    font-size: 16px;
+  }
+
+  .mougals a{
+    font-size: 14px;
+  }
+
+  .mougals p{
+    font-size: 14px;
+  }
+
 }
 @media (max-width: 760px){
   ._img-slider ._slide img{
@@ -1642,6 +1659,11 @@ footer .credits a {
 }
 
 @media (max-width: 560px){
+
+  .close_button{
+    position: static;
+  }
+
   ._img-slider ._slide img{
     width: 200px;
     height: 150px;
@@ -1651,19 +1673,23 @@ footer .credits a {
     bottom: 25%;
   }
 
+  .mougals{
+    overflow: scroll;
+  }
+
   .mougals h1{
-    font-size: 16px;
+    font-size: 14px;
   }
   .mougals h3{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .mougals a{
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .mougals p{
-    font-size: 11px;
+    font-size: 14px;
   }
 
   ._img-slider{
@@ -1671,9 +1697,11 @@ footer .credits a {
   }
 }
 
-@media (max-width: 389px){
-  ._img-slider{
-    display:none;
+@media (max-width: 420px){
+  ._img-slider ._slide img{
+    width: 100px;
+    height: 120px;
+  
   }
 }
 
