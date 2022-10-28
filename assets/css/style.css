@@ -1555,6 +1555,10 @@ footer .credits a {
   padding-bottom: 2px;
 }
 
+.proj-{
+  cursor: pointer;
+}
+
 /* Image Carousel css */
 
 ._img-slider{
