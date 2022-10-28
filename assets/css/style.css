@@ -1542,15 +1542,15 @@ footer .credits a {
 
 .close_button{
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  top: 50px;
+  right: 50px;
 }
 
 .linkToSite{
   display:flex;
   flex-direction:column;
   cursor: pointer;
-  padding-bottom: 3%;
+  padding-bottom: 0%;
 }
 
 .linkToSite a{
