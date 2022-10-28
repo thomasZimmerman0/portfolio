@@ -1549,7 +1549,7 @@ footer .credits a {
   display:flex;
   flex-direction:column;
   cursor: pointer;
-  padding-bottom: 20px;
+  padding-bottom: 10%;
 }
 .linkToSite a{
   padding-bottom: 2px;
@@ -1669,10 +1669,6 @@ footer .credits a {
 }
 
 @media (max-width: 560px){
-
-  .close_button{
-    position: static;
-  }
 
   ._img-slider ._slide img{
     width: 300px;
