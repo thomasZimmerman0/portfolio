@@ -1545,8 +1545,14 @@ footer .credits a {
   bottom: 20px;
 }
 
-.projLink{
+.linkToSite{
+  display:flex;
+  flex-direction:column;
   cursor: pointer;
+  padding-bottom: 20px;
+}
+.linkToSite a{
+  padding-bottom: 2px;
 }
 
 /* Image Carousel css */
@@ -1625,10 +1631,10 @@ footer .credits a {
     height: 300px;
   }
   .mougals h1{
-    font-size: 18px;
+    font-size: 22px;
   }
   .mougals h3{
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .mougals a{
@@ -1665,7 +1671,7 @@ footer .credits a {
   }
 
   ._img-slider ._slide img{
-    width: 200px;
+    width: 300px;
     height: 150px;
   
   }
@@ -1678,10 +1684,10 @@ footer .credits a {
   }
 
   .mougals h1{
-    font-size: 14px;
+    font-size: 20px;
   }
   .mougals h3{
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .mougals a{
@@ -1699,7 +1705,7 @@ footer .credits a {
 
 @media (max-width: 420px){
   ._img-slider ._slide img{
-    width: 100px;
+    width: 300px;
     height: 120px;
   
   }

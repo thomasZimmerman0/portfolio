@@ -22,9 +22,9 @@ document.addEventListener('click', e =>{
 
             role.textContent = "My Role in this project was to design and implement the primary functions, which was handling and displaying the incoming information for each drink. This required developing a robust unit converter as well as feeding that information into a nutritional api to get the caloric content."
 
-            img1.innerHTML = `<img src="./assets/img/whatsinmydrink.png" alt=""></img>`
+            img1.innerHTML = `<img src="./assets/img/whatsinmydrink .jpg" alt=""></img>`
 
-            img2.innerHTML = `<img src="./assets/img/whatsinmydrink1.PNG" alt="">`
+            img2.innerHTML = `<img src="./assets/img/whatsinmydrink1.jpg" alt="">`
 
             img3.innerHTML = `<img src="./assets/img/whatsinmydrink2.PNG" alt="">`
 
@@ -32,7 +32,9 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS, REST API's"
 
-            linkToSite.innerHTML = ` <a href="https://whatsinmydrink1.netlify.app/" target="_blank">Click Here To Visit This Website!</a>`
+            linkToSite.innerHTML = ` <a target="_blank" href="https://whatsinmydrink1.netlify.app/" target="_blank">Click Here To Visit This Website!</a>
+                                    <a target="_blank" href="https://github.com/kippHulick/front-end-project" target="_blank">Click Here To View the Repo!</a>
+            `
         }
         if(e.target.title == 'blackjack'){
 
@@ -52,7 +54,9 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS"
 
-            linkToSite.innerHTML = `<a href="https://tommysblackjacktable.netlify.app/" target="_blank">Click Here To Visit This Website!</a>`
+            linkToSite.innerHTML = `<a target="_blank" href="https://tommysblackjacktable.netlify.app/" target="_blank">Click Here To Visit This Website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/blackjack2021" target="_blank">Click Here To View the Repo!</a>
+            `
         }
         if(e.target.title == 'queen'){
 
@@ -70,9 +74,11 @@ document.addEventListener('click', e =>{
 
             img4.innerHTML = `<img src="./assets/img/queenfanpage2.PNG" alt="">`
 
-            tech.textContent = "Node.js, EJS, express, socket.io"
+            tech.textContent = "Node.js, EJS, Express, Socket.io, Javascript, CSS"
 
-            linkToSite.innerHTML = `<a href="https://queenfanpage.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>`
+            linkToSite.innerHTML = `<a  target="_blank" href="https://queenfanpage.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/queen_webpage" target="_blank">Click Here To View the Repo!</a>
+            `
         }
         if(e.target.title == 'drawdotio'){
 
@@ -82,7 +88,7 @@ document.addEventListener('click', e =>{
 
             role.textContent = "My role in this project was developing most of the backend aspects of the page. I set up the sequelize/ ElephantSQL database used in the application, implimented the passport authentication used on the website, implimented the ability to create new accounts, follow and unfollow users, change your profile picture, and save your drawings to your specific account."
 
-            img1.innerHTML = `<img src="./assets/img/drawdotio.png" alt=""></img>`
+            img1.innerHTML = `<img src="./assets/img/drawdotio.jpg" alt=""></img>`
 
             img2.innerHTML = `<img src="./assets/img/drawdotio1.png" alt="">`
 
@@ -90,9 +96,33 @@ document.addEventListener('click', e =>{
 
             img4.innerHTML = `<img src="./assets/img/drawdotio3.png" alt="">`
 
-            tech.textContent = "Node.js, EJS, express, ElephantSQL, Sequelize, Cloudinary, Canvas, Passport"
+            tech.textContent = "Node.js, EJS, Express, ElephantSQL, Sequelize, Cloudinary, Canvas, Passport, Javascript, CSS"
 
-            linkToSite.innerHTML = `<a href="https://drawdotio.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>`
+            linkToSite.innerHTML = `<a target="_blank" href="https://drawdotio.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/Draw.io_Independent" target="_blank">Click Here To View the Repo!</a>
+            `
+        }
+        if(e.target.title == 'buylowsellhigh'){
+
+            webName.textContent = "Buy Low Sell High"
+
+            description.textContent = "Buy Low Sell High is a React application that uses the MarketStack API to display up-to-date information on stocks from the NASDAQ-100 index. On the page, the user can tap through all of the stocks listed on the page, view all of the stocks that are down 15% or greater of their 4 month average, view all of the stocks up 15% or greater from their 4 month average, search for a symbol, and get more details on the stock by clicking on it. The website is also fully mobile responsive."
+
+            role.textContent = "This project was completed independently"
+
+            img1.innerHTML = `<img src="./assets/img/buylowsellhigh.jpg" alt=""></img>`
+
+            img2.innerHTML = `<img src="./assets/img/buylowsellhigh1.jpg" alt="">`
+
+            img3.innerHTML = `<img src="./assets/img/buylowsellhigh2.jpg" alt="">`
+
+            img4.innerHTML = `<img src="./assets/img/buylowsellhigh3.jpg" alt="">`
+
+            tech.textContent = "Node.js, React, Express, Redux Toolkit, Chart.js, Javascript, CSS, REST API's"
+
+            linkToSite.innerHTML = `<a target="_blank" href="" target="_blank">Click Here To View a Video of the Website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/buy_low_sell_high" target="_blank">Click Here To View the Repo!</a>
+            `
         }
 
         modal_container.classList.add('show');
