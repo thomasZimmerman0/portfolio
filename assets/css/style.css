@@ -1504,7 +1504,7 @@ footer .credits a {
 .mougals-container.show {
   pointer-events: auto;
   opacity: 1;
-  overflow: scroll;
+  /* overflow: scroll; */
 
 }
 
@@ -1513,9 +1513,10 @@ footer .credits a {
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   padding: 30px 50px;
   border-radius: 5px;
-  height: 80vh;
+  height: 90vh;
   max-width: 80%;
-  position: relative;
+  position: absolute;
+  bottom: 2%;
   overflow: auto;
 }
 
@@ -1554,13 +1555,31 @@ footer .credits a {
 
 .linkToSite{
   display:flex;
-  flex-direction:column;
-  cursor: pointer;
+  align-items:center;
+  justify-content: center;
   padding-bottom: 5%;
 }
 
 .linkToSite a{
-  padding-bottom: 2px;
+  cursor: pointer;
+  margin: 1% 1% 1% 1%;
+  background-color: rgb(68, 129, 252);
+  width: 325px;
+  height: 100%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out;
+}
+.linkToSite a:hover{
+  transition: all 0.5s ease-in-out;
+  width: 30%;
+  background-color: white;
+  color:rgb(68, 129, 252);
+  outline: solid rgb(205, 205, 205) 1px;
 }
 
 .proj-{
@@ -1570,6 +1589,7 @@ footer .credits a {
 /* Image Carousel css */
 
 ._img-slider{
+  margin:5%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1606,11 +1626,11 @@ footer .credits a {
   position: absolute;
   display: flex;
   align-items: center;
-  bottom: 15%;
+  bottom: 10%;
 }
 
 ._img-slider ._navigation ._butn{
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(129, 127, 127, 0.8);
   width: 12px;
   height: 12px;
   margin: 10px;
@@ -1672,7 +1692,7 @@ footer .credits a {
   
   }
   ._img-slider ._navigation{
-    bottom: 27%;
+    bottom: 10%;
   }
   ._img-slider{
     height: 300px;
@@ -1699,6 +1719,13 @@ footer .credits a {
     height: 250px;
   
   }
+  .linkToSite a{
+    width: 150px;
+    font-size: 12px;
+  }
+  .linkToSite a:hover{
+    width: 50%;
+  }
 }
 @media (max-width: 640px){
   ._img-slider ._slide img{
@@ -1707,11 +1734,21 @@ footer .credits a {
   
   }
   ._img-slider ._navigation{
-    bottom: 30%;
+    bottom: 15%;
   }
+
 }
 
 @media (max-width: 560px){
+
+  .linkToSite{
+    flex-direction: column;
+
+  }
+  .linkToSite a{
+    padding: 3%;
+    width: 100%;
+  }
 
   ._img-slider ._slide img{
     width: 300px;
@@ -1724,6 +1761,7 @@ footer .credits a {
 
   .mougals{
     overflow: scroll;
+    bottom: 0.5%;
   }
 
   .mougals h1{
@@ -1748,8 +1786,8 @@ footer .credits a {
 
 @media (max-width: 420px){
   ._img-slider ._slide img{
-    width: 300px;
-    height: 120px;
+    width: 200px;
+    height: 125px;
   
   }
 }

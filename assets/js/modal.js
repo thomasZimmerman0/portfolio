@@ -32,8 +32,8 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS, REST API's"
 
-            linkToSite.innerHTML = ` <a target="_blank" href="https://whatsinmydrink1.netlify.app/" target="_blank">Click Here To Visit This Website!</a>
-                                    <a target="_blank" href="https://github.com/kippHulick/front-end-project" target="_blank">Click Here To View the Repo!</a>
+            linkToSite.innerHTML = ` <a target="_blank" href="https://whatsinmydrink1.netlify.app/" target="_blank">Click here to visit this website!</a>
+                                    <a target="_blank" href="https://github.com/kippHulick/front-end-project" target="_blank">Click here to visit the repository!</a>
             `
         }
         if(e.target.title == 'blackjack'){
@@ -54,8 +54,8 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "JavaScript, HTML, CSS"
 
-            linkToSite.innerHTML = `<a target="_blank" href="https://tommysblackjacktable.netlify.app/" target="_blank">Click Here To Visit This Website!</a>
-                                    <a target="_blank" href="https://github.com/thomasZimmerman0/blackjack2021" target="_blank">Click Here To View the Repo!</a>
+            linkToSite.innerHTML = `<a target="_blank" href="https://tommysblackjacktable.netlify.app/" target="_blank">Click here to visit this website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/blackjack2021" target="_blank">Click here to visit the repository!</a>
             `
         }
         if(e.target.title == 'queen'){
@@ -76,8 +76,8 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "Node.js, EJS, Express, Socket.io, Javascript, CSS"
 
-            linkToSite.innerHTML = `<a  target="_blank" href="https://queenfanpage.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>
-                                    <a target="_blank" href="https://github.com/thomasZimmerman0/queen_webpage" target="_blank">Click Here To View the Repo!</a>
+            linkToSite.innerHTML = `<a  target="_blank" href="https://queenfanpage.herokuapp.com/" target="_blank">Click here to visit this website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/queen_webpage" target="_blank">Click here to visit the repository!</a>
             `
         }
         if(e.target.title == 'drawdotio'){
@@ -96,10 +96,10 @@ document.addEventListener('click', e =>{
 
             img4.innerHTML = `<img src="./assets/img/drawdotio3.png" alt="">`
 
-            tech.textContent = "Node.js, EJS, Express, ElephantSQL, Sequelize, Cloudinary, Canvas, Passport, Javascript, CSS"
+            tech.textContent = "Node.js, EJS, Express, ElephantSQL, PostgreSQL, Sequelize, Cloudinary, Canvas, Passport, Javascript, CSS"
 
-            linkToSite.innerHTML = `<a target="_blank" href="https://drawdotio.herokuapp.com/" target="_blank">Click Here To Visit This Website!</a>
-                                    <a target="_blank" href="https://github.com/thomasZimmerman0/Draw.io_Independent" target="_blank">Click Here To View the Repo!</a>
+            linkToSite.innerHTML = `<a target="_blank" href="https://drawdotio.herokuapp.com/" target="_blank">Click here to visit this website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/Draw.io_Independent" target="_blank">Click here to visit the repository!</a>
             `
         }
         if(e.target.title == 'buylowsellhigh'){
@@ -120,9 +120,63 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "Node.js, React, Express, Redux Toolkit, Chart.js, Javascript, CSS, REST API's"
 
-            linkToSite.innerHTML = `<a target="_blank" href="" target="_blank">Click Here To View a Video of the Website!</a>
-                                    <a target="_blank" href="https://github.com/thomasZimmerman0/buy_low_sell_high" target="_blank">Click Here To View the Repo!</a>
+            linkToSite.innerHTML = `<a target="_blank" href="" target="_blank">Click here to visit a video of this website!</a>
+                                    <a target="_blank" href="https://github.com/thomasZimmerman0/buy_low_sell_high" target="_blank">Click here to visit the repository!</a>
             `
+        }
+
+        if(e.target.title == 'beautibodega'){
+
+            webName.textContent = "Beauti Bodega"
+
+            description.innerHTML = `
+            Beauti Bodega is a mobile first shopping application targeted towards companies who sell beauty products, as well as their customers.
+           The application in its current state features a login page, register page, landing page, a products page that allows the user to view all the products available on the
+           site, a cart page that allows the user to view all the products they've added to their cart, a brands page that allows the user to navigate through all the brands featured on the site, profile pages that allow the user to view/edit your profile and 
+           visit other users' profiles, and pages specific to managers of an individual brand. On the products page, the user can click on a specific product
+           which will navigate them to a sub-page that displays more detailed information about the product they clicked on; they will also be able to add that product to their cart at a desired quantity.
+           Likewise, once the user selects a brand on the brands page they will be navigated to a sub-page where they can view more detailed information about that brand, as well as all the products that brand has added to the site. 
+           <br>
+           <br>
+           Currently, there are 2 primary user roles on Beauti Bodega: brand admin, and shopper. Every person who registers an account on Beauti Bodega is
+           a shopper by default. Shoppers have access to viewing some authorization blocked sub-pages, have the ability to add/remove products from their cart, and have the ability to make changes to their profile.
+           A user with a shopper account can also register a brand to Beauti-Bodega which will require them to submit information and a logo for that brand. This action will automatically
+           change the user's account from a shopper to a brand admin for the new brand they've created.
+           <br>
+           <br>
+           A brand admin will have the same access and abilities as a shopper, but will also have access to the brand manager pages for their specific brand. 
+           On the brand manager pages, the user can add, edit, and delete products for their brand. When products are added, updated, or deleted the changes will be made visible on the products page, and on the specific brand page
+           <br>
+           <br>
+           In a completed version of Beauty Bodega, there would be a 3rd primary role called 'creator'. A user who is a creator would be able to make posts that
+           feature an image, description, and links to the beauty products that they are sponsoring or using in their post. All other users on the site would be able
+           to follow the creator profiles, and get access to a feed of their posts. Currently, the scaffolding for user editing such as changing profile pictures and tags has been completed, 
+           as well as the ability to change a shopper account to a creator account (which will make the account visible to anyone who visits the site), but for all intents and purposes it is a work in progress.
+           <br>
+           <br>
+           The ability for any shopper to switch their account status from a shopper to a brand admin or creator would be replaced with an application that would require a review to see
+           if the applicant meets the requirements to be featured as a company or an influencer on Beauti Bodega.`
+
+
+            role.textContent = `Completed most backend aspects of this application: installed Sequelize.js and
+            Sequelize-CLI, formatted the database schema that is currently present, inputted seeder information, wrote the
+            logic for almost all API call routes to the backend. Completed styling and logic for the products pages, brands
+            pages, and cart page. Completed all of the create, read, update, delete functionality for the ‘brand-admin’ pages
+            that allowed product manipulation for a specific brand. Completed setting up the Firebase image uploading that
+            is present on multiple pages.`
+
+            img1.innerHTML = `<img src="./assets/img/beauti_bodega.png" alt=""></img>`
+
+            img2.innerHTML = `<img src="./assets/img/beauti_bodega1.png" alt="">`
+
+            img3.innerHTML = `<img src="./assets/img/beauti_bodega2.png" alt="">`
+
+            img4.innerHTML = `<img src="./assets/img/beauti_bodega3.png" alt="">`
+
+            tech.textContent = "TypeScript, Node.js, React, CSS, Tailwind, Express.js, PostgreSQL, ElephantSQL, Firebase, Sequelize.js, Redux Toolit"
+
+            linkToSite.innerHTML = `<a target="_blank" href="" target="_blank">Click here to visit a video this website!</a>`
+            linkToSite.innerHTML = `<a target="_blank" href="https://github.com/sharnee/beautibodega-v0" target="_blank">Click here to visit the repository!</a>`
         }
 
         modal_container.classList.add('show');
