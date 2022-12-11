@@ -120,7 +120,7 @@ document.addEventListener('click', e =>{
 
             tech.textContent = "Node.js, React, Express, Redux Toolkit, Chart.js, Javascript, CSS, REST API's"
 
-            linkToSite.innerHTML = `<a target="_blank" href="" target="_blank">Click here to visit a video of this website!</a>
+            linkToSite.innerHTML = `<a target="_blank" href="https://youtu.be/NlmxoqftxZc" target="_blank">Click here to visit a video of this website!</a>
                                     <a target="_blank" href="https://github.com/thomasZimmerman0/buy_low_sell_high" target="_blank">Click here to visit the repository!</a>
             `
         }
