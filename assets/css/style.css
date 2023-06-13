@@ -270,6 +270,10 @@ a:hover {
   display: block;
 }
 
+.ico-circle img{
+  width: 75px
+}
+
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
   text-align: center;
@@ -1511,10 +1515,11 @@ footer .credits a {
 .mougals{
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  padding: 30px 50px;
+  padding: 40px 70px;
   border-radius: 5px;
-  height: 90vh;
+  height: 80vh;
   max-width: 80%;
+  top:13%;
   position: absolute;
   bottom: 2%;
   overflow: auto;
